@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import DetailedProgress from './DetailedProgress';
 import TerminalLog from './TerminalLog';
 
-function ChapterCard({ chapter, apiKey }) {
+function ChapterCard({ chapter }) {
   const [isStarted, setIsStarted] = useState(false);
   const [isRunComplete, setIsRunComplete] = useState(false);
   const [plan, setPlan] = useState(null);
@@ -12,14 +12,14 @@ function ChapterCard({ chapter, apiKey }) {
   const [activeTab, setActiveTab] = useState('progress');
   const ws = useRef(null);
 
-  // Fetch plan structure on mount or on expand
+  // Lấy cấu trúc các phần (parts) khi component mount hoặc expand
   const fetchPlan = async () => {
     try {
       const res = await fetch(`http://localhost:8000/api/chapters/${chapter.id}/plan`);
       const data = await res.json();
       setPlan(data);
     } catch (err) {
-      console.error(err);
+      console.error("Lỗi khi tải danh sách parts:", err);
     }
   };
 
@@ -29,34 +29,36 @@ function ChapterCard({ chapter, apiKey }) {
 
   const toggleExpand = () => {
     if (!isExpanded && !plan) {
-      fetchPlan(); // Retry fetching if it failed previously
+      fetchPlan();
     }
     setIsExpanded(!isExpanded);
   };
 
+  // Chọn hoặc bỏ chọn tất cả các Part
+  const handleSelectAll = (e) => {
+    if (e.target.checked && plan?.parts) {
+      setSelectedParts(plan.parts.map(p => p.id));
+    } else {
+      setSelectedParts([]);
+    }
+  };
+
   const handleStart = async () => {
+    if (selectedParts.length === 0) {
+      alert("Vui lòng chọn ít nhất 1 phần cần dịch!");
+      return;
+    }
+
     setIsStarted(true);
     setIsRunComplete(false);
     setLogs([]);
 
-    // 2. Connect WebSocket
+    // Khởi tạo kết nối WebSocket (Đã loại bỏ tham số api_key)
     const url = new URL(`ws://localhost:8000/ws/translate/${chapter.id}`);
-    if (apiKey) {
-      url.searchParams.append('api_key', apiKey);
-    }
-    // User explicitly checked these checkboxes, so we should send them to backend
-    // regardless of whether they are 'completed' or not. This allows re-translating or re-exporting PDFs.
-    const partsToSend = selectedParts;
+    url.searchParams.append('parts', selectedParts.join(','));
 
-    if (partsToSend.length === 0) {
-      alert("Vui lòng chọn ít nhất 1 phần cần dịch!");
-      setIsStarted(false);
-      return;
-    }
-
-    url.searchParams.append('parts', partsToSend.join(','));
     ws.current = new WebSocket(url.toString());
-    
+
     ws.current.onmessage = (event) => {
       const message = JSON.parse(event.data);
       if (message.type === 'log') {
@@ -71,10 +73,9 @@ function ChapterCard({ chapter, apiKey }) {
           ];
         });
       } else if (message.type === 'status') {
-        // Update the part status
         setPlan(prevPlan => {
           if (!prevPlan) return prevPlan;
-          const newParts = prevPlan.parts.map(p => 
+          const newParts = prevPlan.parts.map(p =>
             p.id === message.part ? { ...p, status: message.status } : p
           );
           return { ...prevPlan, parts: newParts };
@@ -85,8 +86,9 @@ function ChapterCard({ chapter, apiKey }) {
       }
     };
 
-    ws.current.onerror = (error) => {
+    ws.current.onerror = () => {
       setLogs(prev => [...prev, { time: new Date().toLocaleTimeString(), text: `[Error] WebSocket Connection Error` }]);
+      setIsStarted(false);
     };
   };
 
@@ -154,10 +156,21 @@ function ChapterCard({ chapter, apiKey }) {
       {isExpanded && plan && plan.parts && plan.parts.length > 0 && (
         <div style={{ marginTop: '1rem', animation: 'fadeIn 0.3s ease' }}>
           
-          {/* 1. Checkboxes for selection (Only show when not started) */}
+          {/* Checkboxes chọn Part dịch */}
           {!isStarted && (
             <div style={{ background: 'rgba(255,255,255,0.05)', padding: '1rem', borderRadius: '0.5rem', marginBottom: '1rem' }}>
-              <h4 style={{ marginBottom: '0.5rem', color: 'var(--text-color)' }}>Select Parts to Translate:</h4>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
+                <h4 style={{ margin: 0, color: 'var(--text-color)' }}>Select Parts to Translate:</h4>
+                <label style={{ fontSize: '0.85rem', color: '#3b82f6', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                  <input
+                    type="checkbox"
+                    onChange={handleSelectAll}
+                    checked={plan.parts.length > 0 && selectedParts.length === plan.parts.length}
+                  />
+                  Select All
+                </label>
+              </div>
+
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem' }}>
                 {plan.parts.map(p => (
                   <label key={p.id} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: p.status === 'completed' ? '#4ade80' : 'var(--text-color)', fontSize: '0.9rem', cursor: 'pointer' }}>
@@ -180,7 +193,7 @@ function ChapterCard({ chapter, apiKey }) {
             </div>
           )}
 
-          {/* Tabs for Progress and Logs */}
+          {/* Tab Progress và Logs */}
           <div style={{ marginTop: '1.5rem' }}>
             <div style={{ display: 'flex', gap: '1rem', borderBottom: '1px solid var(--border-color)', marginBottom: '1rem' }}>
               <button 

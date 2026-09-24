@@ -1,4 +1,8 @@
-fastapi
-uvicorn
-websockets
-pydantic
+fastapi>=0.115
+uvicorn[standard]>=0.30
+websockets>=12
+pydantic>=2
+python-multipart>=0.0.9
+pymupdf>=1.24
+google-genai>=1.0
+python-dotenv>=1.0

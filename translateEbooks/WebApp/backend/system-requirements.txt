@@ -1,0 +1,12 @@
+# Required outside Python/pip for PDF generation.
+#
+# Debian/Ubuntu:
+#   sudo apt-get install texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-dejavu
+#
+# Arch Linux:
+#   sudo pacman -S texlive-xetex texlive-latexextra texlive-fontsrecommended ttf-dejavu
+#
+# The application invokes xelatex and the LaTeX preamble uses:
+# geometry, graphicx, adjustbox, hyperref, fontspec, amsmath, amssymb, listings.
+xelatex
+DejaVu Sans
