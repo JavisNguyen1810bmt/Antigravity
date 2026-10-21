@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:13,824
+Phỏng vấn vòng hai vị trí Giám đốc Sản phẩm AI tại NexusTech giữa Sarah Jenkins và Alex Morgan. Alex có sáu năm kinh nghiệm B2B SaaS, từng thúc đẩy tăng trưởng ba mươi lăm phần trăm ARR nhờ AI dự đoán.
+
+2
+00:00:13,824 --> 00:00:24,312
+Khi nợ kỹ thuật cạnh tranh với yêu cầu khách hàng, Alex áp dụng mô hình RICE, dành hai mươi phần trăm nguồn lực để tái cấu trúc, giúp giảm một nửa độ trễ và bàn giao chín mươi phần trăm tính năng.
+
+3
+00:00:24,312 --> 00:00:35,400
+Về thiết kế AI, Alex ưu tiên hiển thị điểm tin cậy, kích hoạt sự can thiệp của con người khi độ tin cậy dưới tám mươi phần trăm, đồng thời kiểm chứng nhu cầu bằng bản mẫu thử nghiệm trước khi lập trình mô hình.
+
+4
+00:00:35,400 --> 00:00:46,008
+Trước đề xuất viết lại hệ thống mất bốn tháng từ đội ngũ kỹ thuật, Alex đã dung hòa qua hội thảo phân tích dữ liệu khách hàng rời bỏ, thống nhất lộ trình nâng cấp từng bước để duy trì giá trị sản phẩm.
+
+5
+00:00:46,008 --> 00:00:54,216
+Nhờ tư duy chiến lược và năng lực kỹ thuật nổi bật, Alex nhận đánh giá xuất sắc cùng khuyến nghị mạnh mẽ tiến thẳng vào vòng phỏng vấn cuối cùng của NexusTech.

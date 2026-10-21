@@ -1,0 +1,159 @@
+.export-tools {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--card-border);
+  border-radius: 1rem;
+  background: var(--card-bg);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.export-tools-header,
+.export-preview-heading,
+.export-progress-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.export-tools-header h3 {
+  margin-bottom: 0.2rem;
+}
+
+.export-tools-header p,
+.export-video-ready p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.export-action-row,
+.export-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.export-action-row {
+  margin-top: 1.2rem;
+}
+
+.export-button {
+  min-height: 42px;
+}
+
+.export-button:disabled {
+  opacity: 0.65;
+  cursor: progress;
+}
+
+.export-video-button {
+  background: #0f766e;
+}
+
+.export-video-button:hover {
+  background: #115e59;
+}
+
+.export-preview {
+  margin-top: 1.5rem;
+}
+
+.export-preview-heading {
+  margin-bottom: 0.75rem;
+}
+
+.export-preview-heading h4 {
+  font-size: 1rem;
+}
+
+.export-downloads a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.45rem;
+  background: rgba(59, 130, 246, 0.18);
+  color: #bfdbfe;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.export-downloads a:hover {
+  background: rgba(59, 130, 246, 0.32);
+}
+
+.export-slide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.8rem;
+}
+
+.export-slide {
+  min-height: 190px;
+  padding: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 0.65rem;
+  background:
+    radial-gradient(circle at 95% 0%, rgba(59, 130, 246, 0.18), transparent 45%),
+    rgba(15, 23, 42, 0.8);
+}
+
+.export-slide-number {
+  color: #34d399;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+}
+
+.export-slide h4 {
+  margin: 0.55rem 0;
+  color: #bfdbfe;
+  font-size: 1rem;
+}
+
+.export-slide ul {
+  padding-left: 1.1rem;
+  color: #e2e8f0;
+  font-size: 0.82rem;
+}
+
+.export-slide li + li {
+  margin-top: 0.3rem;
+}
+
+.export-error {
+  margin-top: 0.8rem;
+  color: #fca5a5;
+  font-size: 0.9rem;
+}
+
+.export-video-progress,
+.export-video-ready {
+  margin-top: 1rem;
+  padding: 0.9rem;
+  border-radius: 0.6rem;
+  background: rgba(15, 23, 42, 0.65);
+}
+
+.export-progress-label {
+  margin-bottom: 0.45rem;
+  color: #cbd5e1;
+  font-size: 0.82rem;
+}
+
+.export-video-progress progress {
+  width: 100%;
+  height: 0.65rem;
+  accent-color: #10b981;
+}
+
+.export-video-ready p {
+  margin-bottom: 0.65rem;
+}
+
+@media (max-width: 560px) {
+  .export-preview-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

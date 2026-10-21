@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import DetailedProgress from './components/DetailedProgress';
+import ExportTools from './components/ExportTools';
 import TerminalLog from './components/TerminalLog';
 import './App.css';
 
@@ -335,6 +336,9 @@ function App() {
               </div>
             )}
           </div>
+        )}
+        {session && isDone && (
+          <ExportTools sessionId={session.session_id} />
         )}
       </main>
     </div>

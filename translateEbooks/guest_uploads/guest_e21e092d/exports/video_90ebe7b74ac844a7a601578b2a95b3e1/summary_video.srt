@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:07,536
+Biên bản phỏng vấn vòng hai vị trí Quản lý Sản phẩm AI Cao cấp tại NexusTech giữa Sarah Jenkins và ứng viên Alex Morgan.
+
+2
+00:00:07,536 --> 00:00:22,752
+Alex có sáu năm kinh nghiệm quản lý SaaS B2B tại CloudScale, từng giúp tăng 35% ARR. Khi đối mặt với nợ kỹ thuật, Alex áp dụng mô hình RICE, dành 20% nguồn lực cho kiến trúc, giúp giảm một nửa độ trễ truy vấn.
+
+3
+00:00:22,752 --> 00:00:34,320
+Về thiết kế AI, Alex chú trọng tính minh bạch giao diện với điểm tin cậy. Nếu độ tin cậy dưới 80%, hệ thống sẽ chuyển sang kiểm tra thủ công với sự can thiệp của con người.
+
+4
+00:00:34,320 --> 00:00:46,368
+Để kiểm chứng sản phẩm, Alex ưu tiên thử nghiệm Wizard of Oz và mẫu độ phân giải thấp. Khi giải quyết bất đồng với đội kỹ thuật, Alex kết hợp dữ liệu khách hàng để thống nhất chiến lược chuyển đổi từng bước.
+
+5
+00:00:46,368 --> 00:00:57,072
+Alex đạt điểm cao ở mọi lĩnh vực năng lực, đặc biệt là Chiến lược Sản phẩm với 4.8 trên 5. Người phỏng vấn đề xuất mạnh mẽ đưa Alex vào vòng phỏng vấn cuối cùng.

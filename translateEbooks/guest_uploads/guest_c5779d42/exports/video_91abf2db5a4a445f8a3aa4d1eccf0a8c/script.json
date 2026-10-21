@@ -1,0 +1,55 @@
+{
+  "title": "Biên bản Phỏng vấn Tuyển dụng Giám đốc Sản phẩm AI NexusTech",
+  "scenes": [
+    {
+      "title": "Thông tin ứng viên và kinh nghiệm nền tảng",
+      "narration": "Phỏng vấn vòng hai vị trí Giám đốc Sản phẩm AI tại NexusTech giữa Sarah Jenkins và Alex Morgan. Alex có sáu năm kinh nghiệm B2B SaaS, từng thúc đẩy tăng trưởng ba mươi lăm phần trăm ARR nhờ AI dự đoán.",
+      "caption": "Phỏng vấn Alex Morgan cho vị trí Giám đốc Sản phẩm AI tại NexusTech.",
+      "visual_keywords": [
+        "phỏng vấn tuyển dụng",
+        "B2B SaaS",
+        "Alex Morgan"
+      ]
+    },
+    {
+      "title": "Ưu tiên tính năng và xử lý nợ kỹ thuật",
+      "narration": "Khi nợ kỹ thuật cạnh tranh với yêu cầu khách hàng, Alex áp dụng mô hình RICE, dành hai mươi phần trăm nguồn lực để tái cấu trúc, giúp giảm một nửa độ trễ và bàn giao chín mươi phần trăm tính năng.",
+      "caption": "Giải quyết nợ kỹ thuật bằng mô hình RICE và phân bổ 20% nguồn lực sprint.",
+      "visual_keywords": [
+        "mô hình RICE",
+        "nợ kỹ thuật",
+        "tối ưu hiệu năng"
+      ]
+    },
+    {
+      "title": "Chiến lược thiết kế và thử nghiệm AI",
+      "narration": "Về thiết kế AI, Alex ưu tiên hiển thị điểm tin cậy, kích hoạt sự can thiệp của con người khi độ tin cậy dưới tám mươi phần trăm, đồng thời kiểm chứng nhu cầu bằng bản mẫu thử nghiệm trước khi lập trình mô hình.",
+      "caption": "Thiết kế AI minh bạch, tích hợp con người giám sát và thử nghiệm mẫu nhanh.",
+      "visual_keywords": [
+        "giao diện AI",
+        "human in the loop",
+        "thử nghiệm sản phẩm"
+      ]
+    },
+    {
+      "title": "Lãnh đạo đa chức năng và giải quyết bất đồng",
+      "narration": "Trước đề xuất viết lại hệ thống mất bốn tháng từ đội ngũ kỹ thuật, Alex đã dung hòa qua hội thảo phân tích dữ liệu khách hàng rời bỏ, thống nhất lộ trình nâng cấp từng bước để duy trì giá trị sản phẩm.",
+      "caption": "Thống nhất lộ trình chuyển đổi từng bước qua phân tích dữ liệu khách hàng.",
+      "visual_keywords": [
+        "lãnh đạo đa chức năng",
+        "hội thảo kỹ thuật",
+        "giữ chân khách hàng"
+      ]
+    },
+    {
+      "title": "Kết quả đánh giá và khuyến nghị",
+      "narration": "Nhờ tư duy chiến lược và năng lực kỹ thuật nổi bật, Alex nhận đánh giá xuất sắc cùng khuyến nghị mạnh mẽ tiến thẳng vào vòng phỏng vấn cuối cùng của NexusTech.",
+      "caption": "Nhận đánh giá xuất sắc và được đề xuất chuyển tiếp vào vòng phỏng vấn cuối.",
+      "visual_keywords": [
+        "đánh giá năng lực",
+        "kết quả phỏng vấn",
+        "NexusTech"
+      ]
+    }
+  ]
+}

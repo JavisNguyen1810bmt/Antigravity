@@ -1,0 +1,55 @@
+{
+  "title": "Tóm tắt Phỏng vấn Quản lý Sản phẩm AI Cao cấp - Alex Morgan",
+  "scenes": [
+    {
+      "title": "Giới thiệu buổi phỏng vấn",
+      "narration": "Biên bản phỏng vấn vòng hai vị trí Quản lý Sản phẩm AI Cao cấp tại NexusTech giữa Sarah Jenkins và ứng viên Alex Morgan.",
+      "caption": "Phỏng vấn vị trí Quản lý Sản phẩm AI Cao cấp tại NexusTech.",
+      "visual_keywords": [
+        "phỏng vấn tuyển dụng",
+        "NexusTech",
+        "phỏng vấn AI"
+      ]
+    },
+    {
+      "title": "Kinh nghiệm và Tối ưu hóa",
+      "narration": "Alex có sáu năm kinh nghiệm quản lý SaaS B2B tại CloudScale, từng giúp tăng 35% ARR. Khi đối mặt với nợ kỹ thuật, Alex áp dụng mô hình RICE, dành 20% nguồn lực cho kiến trúc, giúp giảm một nửa độ trễ truy vấn.",
+      "caption": "Alex có kinh nghiệm tăng 35% ARR và xử lý nợ kỹ thuật bằng mô hình RICE.",
+      "visual_keywords": [
+        "tăng trưởng ARR",
+        "mô hình RICE",
+        "nợ kỹ thuật"
+      ]
+    },
+    {
+      "title": "Thiết kế Sản phẩm AI",
+      "narration": "Về thiết kế AI, Alex chú trọng tính minh bạch giao diện với điểm tin cậy. Nếu độ tin cậy dưới 80%, hệ thống sẽ chuyển sang kiểm tra thủ công với sự can thiệp của con người.",
+      "caption": "Thiết kế AI minh bạch, áp dụng can thiệp thủ công khi độ tin cậy dưới 80%.",
+      "visual_keywords": [
+        "giao diện AI",
+        "điểm tin cậy",
+        "human in the loop"
+      ]
+    },
+    {
+      "title": "Kiểm chứng và Lãnh đạo",
+      "narration": "Để kiểm chứng sản phẩm, Alex ưu tiên thử nghiệm Wizard of Oz và mẫu độ phân giải thấp. Khi giải quyết bất đồng với đội kỹ thuật, Alex kết hợp dữ liệu khách hàng để thống nhất chiến lược chuyển đổi từng bước.",
+      "caption": "Thử nghiệm thị trường bằng mẫu độ phân giải thấp và lãnh đạo dựa trên dữ liệu.",
+      "visual_keywords": [
+        "Wizard of Oz",
+        "thử nghiệm MVP",
+        "lãnh đạo nhóm"
+      ]
+    },
+    {
+      "title": "Kết quả Đánh giá",
+      "narration": "Alex đạt điểm cao ở mọi lĩnh vực năng lực, đặc biệt là Chiến lược Sản phẩm với 4.8 trên 5. Người phỏng vấn đề xuất mạnh mẽ đưa Alex vào vòng phỏng vấn cuối cùng.",
+      "caption": "Alex đạt điểm chiến lược 4.8/5 và được đề xuất mạnh mẽ vào vòng phỏng vấn cuối.",
+      "visual_keywords": [
+        "đánh giá năng lực",
+        "kết quả phỏng vấn",
+        "đề xuất tuyển dụng"
+      ]
+    }
+  ]
+}

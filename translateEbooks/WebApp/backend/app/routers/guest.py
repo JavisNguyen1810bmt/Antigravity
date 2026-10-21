@@ -9,7 +9,7 @@ import time
 import asyncio
 import traceback
 
-from app.config import GUEST_UPLOADS_DIR, GEMINI_API_KEY, guest_sessions
+from app.config import GUEST_UPLOADS_DIR, guest_sessions
 from app.core.pdf_extractor import extract_pages_and_images
 from app.core.latex import (
     clean_latex_code,
@@ -17,6 +17,7 @@ from app.core.latex import (
     LATEX_TEMPLATE,
     compile_xelatex,
     inject_latex_content,
+    _latex_error_message
 )
 from app.services.translator import translate_text_stream
 
@@ -195,7 +196,7 @@ async def websocket_guest_endpoint(websocket: WebSocket, session_id: str, api_ke
         return
 
     session = guest_sessions[session_id]
-    actual_api_key = api_key or GEMINI_API_KEY
+    actual_api_key = api_key
     try:
         selected_parts = {int(p.strip()) for p in parts.split(",") if p.strip()} if parts else set()
     except ValueError:

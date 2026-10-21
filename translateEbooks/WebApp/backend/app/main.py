@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
 from app.config import OUTPUT_DIR, ORIGINAL_DIR, GUEST_UPLOADS_DIR
-from app.routers import chapters, guest
+from app.routers import chapters, exports, guest
 
 app = FastAPI(title="Antigravity Ebook Translator API")
 
@@ -24,6 +24,7 @@ app.mount("/guest_files", StaticFiles(directory=str(GUEST_UPLOADS_DIR)), name="g
 # Include Routers
 app.include_router(guest.router)
 app.include_router(chapters.router)
+app.include_router(exports.router)
 
 
 

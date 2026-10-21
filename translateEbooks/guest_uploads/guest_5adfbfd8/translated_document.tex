@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+
+\begin{document}
+BIÊN BẢN PHỎNG VẤN
+VỊ TRÍ: QUẢN LÝ SẢN PHẨM CAO CẤP (GIẢI PHÁP AI)
+ỨNG VIÊN
+Alex Morgan
+NGƯỜI PHỎNG VẤN
+Sarah Jenkins (VP Sản phẩm)
+NGÀY \& GIỜ
+24 tháng 10, 2026
+VÒNG PHỎNG VẤN
+Vòng 2 - Kỹ thuật \& Lãnh đạo
+
+Bối cảnh điều hành: Phỏng vấn vòng hai nhằm đánh giá sự phù hợp chiến lược, nền tảng kỹ thuật trong phát triển sản phẩm AI và năng lực lãnh đạo của ứng viên để dẫn dắt đội ngũ Nền tảng Đám mây Doanh nghiệp (Enterprise Cloud Platform).
+
+PHẦN 1: THÔNG TIN NỀN TẢNG \& TẦM NHÌN
+Sarah Jenkins
+Chào mừng Alex. Cảm ơn bạn đã dành thời gian hôm nay. Để bắt đầu, bạn có thể tóm tắt ngắn gọn kinh nghiệm dẫn dắt các sáng kiến AI dành cho doanh nghiệp của mình và điều gì đã thu hút bạn đến với vị trí này tại NexusTech không?
+
+Alex Morgan
+Cảm ơn Sarah. Rất hân hạnh được ở đây. Trong sáu năm qua tại CloudScale Inc., tôi đã quản lý các sản phẩm B2B SaaS, đặc biệt tập trung vào bộ công cụ phân tích học máy của chúng tôi. Tôi đã dẫn dắt quá trình chuyển đổi từ phân tích truyền thống sang các mô hình AI dự đoán, giúp tăng 35\% ARR. Tôi đã theo dõi sự mở rộng của NexusTech sang các giải pháp AI cho doanh nghiệp và tôi rất ấn tượng với sự tập trung của quý công ty vào hạ tầng có khả năng mở rộng. Tôi thấy sự phù hợp mạnh mẽ giữa kinh nghiệm của tôi trong tích hợp doanh nghiệp và lộ trình phát triển của các bạn.
+
+Sarah Jenkins
+Đó là một thành tích rất ấn tượng. Bạn có thể đưa ra một ví dụ cụ thể về cách bạn ưu tiên các tính năng khi nợ kỹ thuật cạnh tranh trực tiếp với các yêu cầu có nhu cầu cao từ khách hàng không?
+
+Alex Morgan
+Chắc chắn rồi. Năm ngoái, dịch vụ lập chỉ mục cốt lõi của chúng tôi gặp phải vấn đề nợ kỹ thuật từ hệ thống cũ, làm chậm tốc độ truy vấn gần 40\%. Cùng lúc đó, ba khách hàng doanh nghiệp lớn đang yêu cầu các tính năng báo cáo tùy chỉnh. Tôi đã áp dụng khung RICE có trọng số, phân bổ chính xác 20\% dung lượng kỹ thuật mỗi sprint cho việc tái cấu trúc kiến trúc, đồng thời đàm phán kéo giãn thời hạn bàn giao cho các yêu cầu của khách hàng. Trong vòng hai quý, độ trễ truy vấn đã giảm một nửa và chúng tôi đã bàn giao 90\% bộ tính năng được yêu cầu mà không làm các kỹ sư bị quá tải.
+
+PHẦN 2: CHIẾN LƯỢC SẢN PHẨM \& GIẢI QUYẾT VẤN ĐỀ KỸ THUẬT
+Sarah Jenkins
+Bạn tiếp cận như thế nào khi thiết kế các tính năng dựa trên AI mà đầu ra của mô hình mang tính xác suất thay vì quyết định luận? Bạn quản lý kỳ vọng của người dùng và trải nghiệm người dùng (UX) xung quanh các sai sót như thế nào?
+
+Alex Morgan
+Việc thiết kế cho AI đòi hỏi chuyển dịch từ kết quả cố định sang khoảng tin cậy. Đầu tiên, chúng tôi thiết kế sự minh bạch trực tiếp vào giao diện người dùng—hiển thị điểm tin cậy hoặc giải thích lý do tại sao một đề xuất được đưa ra. Thứ hai, chúng tôi đảm bảo các phương án dự phòng có sự can thiệp của con người một cách liền mạch. Nếu ngưỡng tin cậy giảm xuống dưới 80\%, giao diện người dùng sẽ gợi ý xem xét thủ công nhanh thay vì tự động ra quyết định một cách âm thầm.
+
+Đánh giá Tuyển dụng NexusTech • Ứng viên: Alex Morgan
+Trang 1 / 2
+
+PHẦN 2: CHIẾN LƯỢC \& GIẢI QUYẾT VẤN ĐỀ (TIẾP THEO)
+Sarah Jenkins
+Làm thế nào bạn xác minh sự phù hợp giữa sản phẩm và thị trường trước khi dành nguồn lực kỹ thuật đáng kể cho một mô hình AI mới?
+
+Alex Morgan
+Tôi hoàn toàn ủng hộ việc kiểm thử theo phương pháp 'Phù thủy xứ Oz' (Wizard of Oz) hoặc các bản mẫu độ trung thực thấp. Trước khi xây dựng các mô hình tùy chỉnh hoàn chỉnh, chúng tôi thử nghiệm nhu cầu bằng cách sử dụng API của bên thứ ba hoặc các quy trình bán thủ công để quan sát sự tương tác của người dùng. Chúng tôi đo lường thành công bằng các chỉ số định tính then chốt như tốc độ hoàn thành quy trình công việc và mức độ hài lòng định tính, thay vì các chỉ số ảo ban đầu.
+
+PHẦN 3: LÃNH ĐẠO LIÊN PHÒNG BAN
+Sarah Jenkins
+Hãy mô tả một tình huống mà bộ phận kỹ thuật không đồng ý với chiến lược sản phẩm của bạn. Bạn đã làm thế nào để thống nhất các đội ngũ?
+
+Alex Morgan
+Các trưởng nhóm kỹ thuật của chúng tôi muốn xây dựng lại toàn bộ đường ống (pipeline) bằng một framework mới, ước tính mất bốn tháng làm việc mà không có
+
+giá trị hướng tới người dùng. Tôi đã tổ chức một buổi workshop chung, nơi chúng tôi đối chiếu các khó khăn của nhà phát triển với dữ liệu khách hàng rời bỏ dịch vụ. Chúng tôi đã thống nhất về một chiến lược chuyển đổi từng bước, giải quyết các nút thắt cổ chai tồi tệ nhất trước tiên trong khi vẫn tiếp tục phát hành các tính năng có tác động cao trong mỗi chu kỳ phát hành.
+
+ĐÁNH GIÁ PHỎNG VẤN \& CHẤM ĐIỂM ỨNG VIÊN
+
+LĨNH VỰC NĂNG LỰC
+TÍN HIỆU / BẰNG CHỨNG GHI NHẬN
+ĐÁNH GIÁ
+
+Sự nhạy bén Kỹ thuật
+Hiểu biết sâu sắc về quy trình làm việc AI, tích hợp API và các đánh đổi hệ thống.
+4.5 / 5.0
+
+Chiến lược Sản phẩm
+Thể hiện khả năng ưu tiên có cấu trúc bằng cách sử dụng các khung chuẩn (RICE, MVP khám phá).
+4.8 / 5.0
+
+Quản lý Các bên liên quan
+Cách tiếp cận thực tế đối với các đánh đổi kỹ thuật và giao tiếp với khách hàng.
+4.2 / 5.0
+
+Lãnh đạo \& Văn hóa
+Có tinh thần hợp tác, làm việc dựa trên dữ liệu và sự thấu hiểu rõ ràng dành cho các đội ngũ kỹ thuật.
+4.6 / 5.0
+
+Khuyến nghị của Người phỏng vấn: ĐỀ XUẤT MẠNH MẼ VÀO VÒNG TRONG
+
+Alex đã thể hiện chuyên môn sâu sắc về quản lý sản phẩm B2B cùng khả năng nắm bắt xuất sắc các hạn chế của sản phẩm AI. Đề xuất tiếp tục tiến vào giai đoạn phỏng vấn cuối cùng với Phó Chủ tịch Kỹ thuật (VP of Engineering) và CPO.
+
+Đánh giá Tuyển dụng NexusTech • Ứng viên: Alex Morgan
+Trang 2 / 2
+\end{document}
