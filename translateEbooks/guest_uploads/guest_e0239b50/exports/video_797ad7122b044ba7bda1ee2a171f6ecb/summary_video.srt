@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:14,664
+NexusTech thực hiện phỏng vấn vòng hai với ứng viên Alex Morgan cho vị trí Giám đốc Sản phẩm AI. Alex có 6 năm kinh nghiệm quản lý B2B SaaS tại CloudScale, từng giúp tăng 35% doanh thu định kỳ nhờ các mô hình AI dự đoán.
+
+2
+00:00:14,664 --> 00:00:29,136
+Khi gặp nợ kỹ thuật song song với áp lực từ khách hàng lớn, Alex áp dụng mô hình RICE, dành 20% nguồn lực mỗi sprint để tái cấu trúc kiến trúc. Nhờ đó, độ trễ truy vấn giảm 50% và hoàn thành 90% tính năng yêu cầu.
+
+3
+00:00:29,136 --> 00:00:42,480
+Về sản phẩm AI, Alex thiết kế giao diện minh bạch hiển thị điểm tin cậy và tích hợp sự tham gia của con người nếu độ tin cậy dưới 80%. Anh còn sử dụng mô hình Wizard of Oz để thử nghiệm nhu cầu thị trường sớm.
+
+4
+00:00:42,480 --> 00:00:53,544
+Khi đội ngũ kỹ thuật bất đồng về chiến lược làm lại hệ thống, Alex đã tổ chức hội thảo đối chiếu khó khăn của lập trình viên với dữ liệu rời bỏ của khách hàng, từ đó thống nhất lộ trình chuyển đổi từng giai đoạn.
+
+5
+00:00:53,544 --> 00:01:06,864
+Alex nhận đánh giá cao ở mọi tiêu chí, nổi bật là 4.8 trên 5 về Chiến lược Sản phẩm. Người phỏng vấn đưa ra khuyến nghị đề xuất chuyển tiếp mạnh mẽ Alex vào vòng phỏng vấn cuối cùng với VP kỹ thuật và CPO.

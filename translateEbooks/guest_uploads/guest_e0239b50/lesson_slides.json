@@ -1,0 +1,71 @@
+{
+  "title": "Nghiên cứu tình huống phỏng vấn Giám đốc Sản phẩm Cao cấp (Giải pháp AI)",
+  "objectives": [
+    "Nắm bắt các tiêu chí đánh giá kỹ thuật và năng lực lãnh đạo đối với vị trí Giám đốc Sản phẩm AI.",
+    "Hiểu phương pháp xử lý sự đánh đổi giữa nợ kỹ thuật và nhu cầu tính năng từ khách hàng.",
+    "Phân tích cách tiếp cận UX và kiểm chứng độ phù hợp thị trường cho các sản phẩm AI mang tính xác suất.",
+    "Học hỏi phương pháp điều chỉnh mâu thuẫn và thống nhất mục tiêu giữa bộ phận sản phẩm và kỹ thuật."
+  ],
+  "slides": [
+    {
+      "title": "Tổng quan Vòng phỏng vấn Vị trí AI Product Lead",
+      "bullets": [
+        "Vị trí ứng tuyển: Giám đốc Sản phẩm Cao cấp (Giải pháp AI) tại NexusTech.",
+        "Thành phần tham gia: Ứng viên Alex Morgan và Người phỏng vấn Sarah Jenkins (Phó Chủ tịch Sản phẩm).",
+        "Mục tiêu vòng 2: Đánh giá sự phù hợp chiến lược, nền tảng kỹ thuật AI và năng lực lãnh đạo Nền tảng Đám mây Doanh nghiệp.",
+        "Bối cảnh tổ chức: Diễn ra ngày 24 tháng 10 năm 2026 trong khuôn khổ Giai đoạn 2 - Kỹ thuật & Lãnh đạo."
+      ]
+    },
+    {
+      "title": "Kinh nghiệm Chuyển đổi AI và Quản trị Nợ Kỹ thuật",
+      "bullets": [
+        "Có 6 năm kinh nghiệm quản lý B2B SaaS tại CloudScale Inc., giúp tăng 35% ARR nhờ chuyển đổi sang AI dự đoán.",
+        "Áp dụng mô hình RICE có trọng số để xử lý mâu thuẫn giữa nợ kỹ thuật và yêu cầu tính năng từ 3 khách hàng lớn.",
+        "Dành 20% nguồn lực mỗi sprint cho tái cấu trúc kiến trúc, đồng thời đàm phán giãn tiến độ bàn giao cho khách hàng.",
+        "Đạt kết quả giảm một nửa độ trễ truy vấn và bàn giao thành công 90% tính năng yêu cầu sau hai quý."
+      ]
+    },
+    {
+      "title": "Thiết kế Trải nghiệm Người dùng cho Sản phẩm AI",
+      "bullets": [
+        "Chuyển dịch tư duy thiết kế từ các kết quả quyết định luận sang các khoảng tin cậy xác suất.",
+        "Đảm bảo tính minh bạch trên giao diện bằng cách hiển thị điểm tin cậy và giải thích cơ sở đưa ra gợi ý.",
+        "Thiết lập phương án dự phòng có sự tham gia của con người (human-in-the-loop) liền mạch.",
+        "Chủ động đưa ra gợi ý xem xét thủ công nhanh khi ngưỡng tin cậy của mô hình giảm xuống dưới 80%."
+      ]
+    },
+    {
+      "title": "Chiến lược Xác thực Độ phù hợp Thị trường (PMF)",
+      "bullets": [
+        "Ủng hộ việc kiểm chứng nhu cầu bằng mô hình 'Phù thủy xứ Oz' hoặc các bản mẫu độ trung thực thấp.",
+        "Tận dụng API của bên thứ ba hoặc quy trình bán thủ công trước khi đầu tư xây dựng mô hình hoàn chỉnh.",
+        "Đo lường sự thành công dựa trên tốc độ hoàn thành quy trình công việc và mức độ hài lòng định tính.",
+        "Tránh việc phụ thuộc vào các chỉ số ảo (vanity metrics) trong giai đoạn đầu thử nghiệm sản phẩm."
+      ]
+    },
+    {
+      "title": "Lãnh đạo Đa chức năng và Hóa giải Bất đồng Kỹ thuật",
+      "bullets": [
+        "Xử lý bất đồng khi đội ngũ kỹ sư muốn dành 4 tháng xây lại toàn bộ pipeline bằng framework mới mà chưa tạo giá trị khách hàng.",
+        "Tổ chức hội thảo chung để đối chiếu trực tiếp các khó khăn kỹ thuật với dữ liệu rời bỏ của khách hàng.",
+        "Thống nhất chiến lược chuyển đổi theo từng giai đoạn, ưu tiên tháo gỡ điểm nghẽn nghiêm trọng nhất trước.",
+        "Duy trì việc phát hành các tính năng có tác động cao đến khách hàng trong từng chu kỳ release."
+      ]
+    },
+    {
+      "title": "Kết quả Đánh giá Năng lực và Khuyến nghị Tuyển dụng",
+      "bullets": [
+        "Năng lực Kỹ thuật đạt 4.5/5.0 nhờ hiểu biết sâu sắc về quy trình AI, tích hợp API và đánh đổi hệ thống.",
+        "Chiến lược Sản phẩm đạt 4.8/5.0 nhờ sử dụng bài bản các khung chuẩn RICE và MVP khám phá.",
+        "Quản lý Bên liên quan đạt 4.2/5.0 và Năng lực Lãnh đạo & Văn hóa đạt 4.6/5.0 với tư duy dựa trên dữ liệu.",
+        "Khuyến nghị chính thức: Đề xuất chuyển tiếp mạnh mẽ đến vòng phỏng vấn cuối cùng với VP of Engineering và CPO."
+      ]
+    }
+  ],
+  "summary": [
+    "Ứng viên thể hiện kinh nghiệm thực chiến xuất sắc trong việc phát triển AI doanh nghiệp và tối ưu hóa doanh thu ARR.",
+    "Kỹ năng giải quyết bài toán nợ kỹ thuật và thiết kế UX cho sản phẩm AI xác suất có tính hệ thống cao.",
+    "Khả năng lãnh đạo dựa trên dữ liệu giúp dung hòa hiệu quả giữa yêu cầu kinh doanh và góc nhìn kỹ thuật.",
+    "Kết quả đánh giá đạt điểm cao ở mọi tiêu chí, được khuyến nghị mạnh mẽ bước vào vòng phỏng vấn cuối cùng."
+  ]
+}

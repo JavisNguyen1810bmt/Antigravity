@@ -1,0 +1,55 @@
+{
+  "title": "Tóm Tắt Phỏng Vấn Tuyển Dụng: Alex Morgan - Giám Đốc Sản Phẩm AI",
+  "scenes": [
+    {
+      "title": "Giới thiệu & Kinh nghiệm nền tảng",
+      "narration": "NexusTech thực hiện phỏng vấn vòng hai với ứng viên Alex Morgan cho vị trí Giám đốc Sản phẩm AI. Alex có 6 năm kinh nghiệm quản lý B2B SaaS tại CloudScale, từng giúp tăng 35% doanh thu định kỳ nhờ các mô hình AI dự đoán.",
+      "caption": "NexusTech phỏng vấn Alex Morgan cho vị trí Giám đốc Sản phẩm AI. Alex có 6 năm kinh nghiệm B2B SaaS, tăng 35% ARR.",
+      "visual_keywords": [
+        "phỏng vấn tuyển dụng",
+        "giám đốc sản phẩm",
+        "kết quả ARR"
+      ]
+    },
+    {
+      "title": "Cân bằng nợ kỹ thuật và khách hàng",
+      "narration": "Khi gặp nợ kỹ thuật song song với áp lực từ khách hàng lớn, Alex áp dụng mô hình RICE, dành 20% nguồn lực mỗi sprint để tái cấu trúc kiến trúc. Nhờ đó, độ trễ truy vấn giảm 50% và hoàn thành 90% tính năng yêu cầu.",
+      "caption": "Alex áp dụng khung RICE, dành 20% nguồn lực để tái cấu trúc, giảm 50% độ trễ và giao 90% tính năng.",
+      "visual_keywords": [
+        "khung RICE",
+        "tái cấu trúc hệ thống",
+        "tối ưu hiệu năng"
+      ]
+    },
+    {
+      "title": "Chiến lược thiết kế & Thử nghiệm AI",
+      "narration": "Về sản phẩm AI, Alex thiết kế giao diện minh bạch hiển thị điểm tin cậy và tích hợp sự tham gia của con người nếu độ tin cậy dưới 80%. Anh còn sử dụng mô hình Wizard of Oz để thử nghiệm nhu cầu thị trường sớm.",
+      "caption": "Sản phẩm AI hiển thị điểm tin cậy, can thiệp thủ công dưới 80% và dùng thử nghiệm Wizard of Oz trước khi đầu tư.",
+      "visual_keywords": [
+        "giao diện AI",
+        "điểm tin cậy",
+        "thử nghiệm Wizard of Oz"
+      ]
+    },
+    {
+      "title": "Quản lý và lãnh đạo đội ngũ",
+      "narration": "Khi đội ngũ kỹ thuật bất đồng về chiến lược làm lại hệ thống, Alex đã tổ chức hội thảo đối chiếu khó khăn của lập trình viên với dữ liệu rời bỏ của khách hàng, từ đó thống nhất lộ trình chuyển đổi từng giai đoạn.",
+      "caption": "Alex đối chiếu khó khăn lập trình với dữ liệu khách hàng rời bỏ để thống nhất lộ trình chuyển đổi theo từng giai đoạn.",
+      "visual_keywords": [
+        "hội thảo đội ngũ",
+        "dữ liệu rời bỏ",
+        "lộ trình sản phẩm"
+      ]
+    },
+    {
+      "title": "Đánh giá & Đề xuất tuyển dụng",
+      "narration": "Alex nhận đánh giá cao ở mọi tiêu chí, nổi bật là 4.8 trên 5 về Chiến lược Sản phẩm. Người phỏng vấn đưa ra khuyến nghị đề xuất chuyển tiếp mạnh mẽ Alex vào vòng phỏng vấn cuối cùng với VP kỹ thuật và CPO.",
+      "caption": "Alex đạt điểm cao ở các tiêu chí và nhận đề xuất chuyển tiếp mạnh mẽ vào vòng phỏng vấn cuối cùng với CPO và VP Kỹ thuật.",
+      "visual_keywords": [
+        "bảng điểm đánh giá",
+        "khuyến nghị tuyển dụng",
+        "vòng phỏng vấn cuối"
+      ]
+    }
+  ]
+}
